@@ -58,6 +58,7 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Tables" />
+    <Folder Include="SqlSchemaCompare" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Exercise.sql" />
@@ -73,5 +74,8 @@
     <Build Include="Tables\ForceType.sql" />
     <Build Include="Tables\TrainingPlan.sql" />
     <Build Include="Tables\WorkoutType.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SqlSchemaCompare\WorkCompLocalDB.scmp" />
   </ItemGroup>
 </Project>
